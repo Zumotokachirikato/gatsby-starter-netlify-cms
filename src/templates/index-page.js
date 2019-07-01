@@ -35,14 +35,19 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          boxShadow:
+            'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+          backgroundColor: 'rgba(0, 73, 131, 0.90)',
+          padding: '0.50em',
+          textShadow: '0.1rem 0px 0px black',
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            // boxShadow:
+            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -53,29 +58,31 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            // boxShadow:
+            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
         >
           {subheading}
+          <br />
+          {address}
         </h3>
-        <h3
+        {/*<h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            // boxShadow:
+            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
         >
           {address}
-        </h3>
+        </h3>*/}
       </div>
     </div>
     <section className="section section--gradient">
@@ -94,7 +101,7 @@ export const IndexPageTemplate = ({
                 </div>*/}
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2 is-$white">
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -112,17 +119,17 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
-                <div className="columns">
+                {/*<div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                <Features gridItems={intro.blurbs} />*/}
                 {/*<div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Upcoming Shows
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
