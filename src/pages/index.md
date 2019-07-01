@@ -1,9 +1,10 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Platte Valley Players
+image: /img/MB-2780-XL.jpg
+heading: Platte Valley Players
+subheading: The Armory Performing Arts Center
+address: 300 Strong Street, Brighton, CO 80601
 mainpitch:
   title: Why Kaldi
   description: >

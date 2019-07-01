@@ -11,7 +11,9 @@ class BlogRoll extends React.Component {
     return (
       <div className="columns is-multiline">
         {posts &&
-          posts.map(({ node: post }) => (
+          posts
+          // .filter(({ node: post}) => post.frontmatter.featuredpost === true)
+          .map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
@@ -40,7 +42,12 @@ class BlogRoll extends React.Component {
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                      {
+                        // post.frontmatter.date1 && post.frontmatter.date2 ?
+                        post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 6) - post.frontmatter.date2
+                        // :
+                        // post.frontmatter.date1
+                        }
                     </span>
                   </p>
                 </header>
@@ -49,7 +56,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Buy Tickets →
                   </Link>
                 </p>
               </article>
@@ -73,7 +80,7 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___date1] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
           edges {
@@ -86,7 +93,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date1(formatString: "MMMM DD, YYYY")
+                date2(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {
