@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post
 title: Overwatch map 'Cairo' is trash
-date: 2019-06-11T21:08:38.309Z
+date1: 2019-06-11T21:08:38.309Z
+date2: 2019-06-12T21:08:38.309Z
 description: >-
   In reality, all the maps are pretty bad aside from a few original neutral
   hills.
