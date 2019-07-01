@@ -6,13 +6,13 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "show"
+    label: "Show"
+    folder: "src/pages/show"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "show-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Start Date", name: "date1", widget: "datetime"}
       - {label: "End Date", name: "date2", widget: "datetime"}

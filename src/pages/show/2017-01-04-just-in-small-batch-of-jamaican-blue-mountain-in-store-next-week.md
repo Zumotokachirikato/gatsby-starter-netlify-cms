@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: show-post
 title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
 date1: 2017-01-04T15:04:10.000Z
 date2: 2017-01-05T15:04:10.000Z
