@@ -3,7 +3,8 @@ templateKey: 'blog-post'
 title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
 date1: 2017-01-04T15:04:10.000Z
 date2: 2017-01-05T15:04:10.000Z
-featuredpost: true
+featuredpost: false
+featuredimage: /img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
