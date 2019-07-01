@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: show-post
 title: A beginners’ guide to brewing with Chemex
 date1: 2017-01-06T15:04:10.000Z
 date2: 2017-01-07T15:04:10.000Z

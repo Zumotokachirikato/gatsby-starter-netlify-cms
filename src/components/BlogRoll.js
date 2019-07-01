@@ -42,12 +42,9 @@ class BlogRoll extends React.Component {
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
-                      {
-                        // post.frontmatter.date1 && post.frontmatter.date2 ?
-                        post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 6) - post.frontmatter.date2
-                        // :
-                        // post.frontmatter.date1
-                        }
+                        {post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 6)} - {post.frontmatter.date2}
+
+
                     </span>
                   </p>
                 </header>
@@ -56,7 +53,10 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Buy Tickets →
+                    More Info →
+                  </Link>
+                  <Link className="button" to={"/purchase"}>
+                    Tickets →
                   </Link>
                 </p>
               </article>
@@ -81,7 +81,7 @@ export default () => (
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date1] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "show-post" } } }
         ) {
           edges {
             node {

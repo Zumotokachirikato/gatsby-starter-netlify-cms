@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: show-post
 title: Overwatch map 'Cairo' is trash
 date1: 2019-06-11T21:08:38.309Z
 date2: 2019-06-12T21:08:38.309Z
