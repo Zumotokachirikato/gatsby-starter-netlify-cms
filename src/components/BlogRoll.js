@@ -55,8 +55,8 @@ class BlogRoll extends React.Component {
                   <Link className="button" to={post.fields.slug}>
                     More Info →
                   </Link>
-                  <a className="button" href="https://app.arts-people.com/index.php?ticketing=pvp">
-                    Tickets →
+                  <a className="button tickets-btn" href="https://app.arts-people.com/index.php?ticketing=pvp" style={{marginLeft: 10 + 'px'}}>
+                    Tickets
                   </a>
                 </p>
               </article>
