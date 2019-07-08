@@ -106,10 +106,9 @@ body
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    // -webkit-box-shadow: inset 0 0 0 2px $pvp-blue
+    // box-shadow: inset 0 0 0 2px $pvp-blue
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -129,9 +128,6 @@ body
   max-height: 3rem !important
 footer, .footer
   padding: 0 !important
-  // padding: 4rem 0rem 0rem
-  // background-color: transparent
-  // background-color: rgba(0, 73, 131, 0.90)
   background-color: black !important
 
 .has-background-blue
@@ -183,6 +179,17 @@ $menu-label-color: $white-ter
     display: inline
 
 // blog roll
+
+// .is-parent.blog-list-item
+  // max-height: 480px;
+
+.post-meta
+  overflow: hidden;
+  max-height: 75ch;
+
+.blog-list-item header span:first-child
+    display: none !important;
+
 .blog-list-item.is-featured
   background-color: #d6400033;
 
@@ -204,15 +211,12 @@ $menu-label-color: $white-ter
 +tablet-only
 
   html
-    // background-color: white !important
-    // font-size: 14px
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    min-width: 300px;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    min-width: 300px !important;
     overflow-x: hidden !important;
-    overflow-y: scroll;
-    text-rendering: optimizeLegibility;
-    // min-height: 100vh !important;
+    overflow-y: scroll !important;
+    text-rendering: optimizeLegibility !important;
 
   .section
     padding: 3rem 0.5rem;
@@ -222,19 +226,13 @@ $menu-label-color: $white-ter
 
 +mobile
 
-  html
-    // background-color: white !important
-    // font-size: 14px
-    -moz-osx-font-smoothing: grayscale !important;
-    -webkit-font-smoothing: antialiased !important;
-    min-width: 300px !important;
-    overflow-x: hidden !important;
-    overflow-y: scroll !important;
-    text-rendering: optimizeLegibility !important;
-    // min-height: 100vh !important;
-
-  // body
-  //   font-size: 1rem;
+  // html
+  //   -moz-osx-font-smoothing: grayscale !important;
+  //   -webkit-font-smoothing: antialiased !important;
+  //   min-width: 300px !important;
+  //   overflow-x: hidden !important;
+  //   overflow-y: scroll !important;
+  //   text-rendering: optimizeLegibility !important;
 
   .section
     padding: 5% 2%;
