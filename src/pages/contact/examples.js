@@ -9,20 +9,20 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Hi people</h1>
+              <h1>Hello!</h1>
               <p>
-                This is an example site integrating Netlify’s form handling with
-                Gatsby
+                Contact us here if you have any questions or would like to get involved.
+                Thank you for reaching out!
               </p>
               <ul>
                 <li>
-                  <Link to="/contact">Basic contact form</Link>
+                  <Link to="/contact">Contact form</Link>
                 </li>
-                <li>
+                {/*<li>
                   <Link to="/contact/file-upload/">Form with file upload</Link>
-                </li>
+                </li>*/}
               </ul>
-
+{/*
               <h2>Troubleshooting</h2>
               <h3>Forms stop working after upgrading to Gatsby v2</h3>
               <p>
@@ -40,7 +40,7 @@ export default class Index extends React.Component {
                   imorente/gatsby-netlify-form-example
                 </a>{' '}
                 for a working example.
-              </p>
+              </p>*/}
             </div>
           </div>
         </section>

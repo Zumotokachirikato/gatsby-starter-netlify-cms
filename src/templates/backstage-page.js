@@ -7,7 +7,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const ProductPageTemplate = ({
+export const BackstagePageTemplate = ({
   image,
   title,
   heading,
@@ -25,13 +25,18 @@ export const ProductPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+        backgroundPosition: `cover`,
+        backgroundAttachment: `fixed`,
       }}
     >
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
+          boxShadow:
+            'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+          backgroundColor: 'rgba(0, 73, 131, 0.90)',
+          backgroundPosition: `20% center`,
+          backgroundAttachment: `fixed`,
           color: 'white',
           padding: '1rem',
         }}
@@ -104,7 +109,7 @@ export const ProductPageTemplate = ({
   </div>
 )
 
-ProductPageTemplate.propTypes = {
+BackstagePageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -128,12 +133,12 @@ ProductPageTemplate.propTypes = {
   }),
 }
 
-const ProductPage = ({ data }) => {
+const BackstagePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <BackstagePageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -148,7 +153,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+BackstagePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -156,10 +161,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default BackstagePage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const backstagePageQuery = graphql`
+  query BackstagePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

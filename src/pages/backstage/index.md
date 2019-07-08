@@ -1,14 +1,11 @@
 ---
-templateKey: 'product-page'
-path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+templateKey: 'backstage-page'
+path: /backstage
+title: Backstage
+image: /img/static/img/PVP_assets/ROF-2211.jpg
+heading: Backstage at Platte Valley Players
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  This is where you will find an archive of all our previous productions we have held as well as casting calls for future events! Come back to see more as we add high quality photos and playbills to the archive.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,21 +42,18 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Casting Calls
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Want to get involved? Check back here for our open casting calls or feel free to contact us if you would like to consider volunteering.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: A very dramatic scene with an older man in a suit
+    image: /img/PVP_assets/YCT-8345-XL.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Man, alone, in blue lighting, pondering
+    image: /img/PVP_assets/MB-2836-XL.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Full band jam session on stage
+    image: /img/PVP_assets/ROF-2086.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-

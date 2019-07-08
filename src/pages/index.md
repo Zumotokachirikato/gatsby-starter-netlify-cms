@@ -6,7 +6,7 @@ heading: Platte Valley Players
 subheading: The Armory Performing Arts Center
 address: 300 Strong Street, Brighton, CO 80601
 mainpitch:
-  title: Why Kaldi
+  title: Welcome to Platte Valley Players!
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
@@ -60,12 +60,12 @@ main:
     journey. We personally visit each farm to make sure the conditions are
     optimal for the plants, farmers and the local environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: A very dramatic scene with an older man in a suit
+    image: /img/PVP_assets/YCT-8345-XL.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Man, alone, in blue lighting, pondering
+    image: /img/PVP_assets/MB-2836-XL.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Full band jam session on stage
+    image: /img/PVP_assets/ROF-2086.jpg
 ---
