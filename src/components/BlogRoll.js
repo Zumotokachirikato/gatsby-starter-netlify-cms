@@ -12,7 +12,6 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts
-          // .filter(({ node: post}) => post.frontmatter.featuredpost === true)
           .map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
@@ -42,9 +41,12 @@ class BlogRoll extends React.Component {
                     </Link>
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
-                        {post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 6)} - {post.frontmatter.date2}
-
-
+                        {(post.frontmatter.date1 && post.frontmatter.date2) &&
+                          (post.frontmatter.date2.slice(0, post.frontmatter.date2.indexOf(","))
+                            !== post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(",")))
+                          ? `${post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 16)} - ${post.frontmatter.date2.slice(0, post.frontmatter.date2.length - 9) }`
+                          : `${post.frontmatter.date1} - ${post.frontmatter.date2.slice(17, post.frontmatter.date2.length)}`
+                        }
                     </span>
                   </p>
                 </header>
@@ -93,8 +95,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date1(formatString: "MMMM DD, YYYY")
-                date2(formatString: "MMMM DD, YYYY")
+                date1(formatString: "MMMM DD, YYYY, h:mm a")
+                date2(formatString: "MMMM DD, YYYY, h:mm a")
                 featuredpost
                 featuredimage {
                   childImageSharp {

@@ -7,6 +7,8 @@ description: Platte Valley Player's cabaret fundraiser is back!
 featuredpost: true
 featuredimage: /img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg
 ---
+![overwatch](/img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg)
+
 Enjoy delicious BBQ and tasty Broadway show tunes!
 
 

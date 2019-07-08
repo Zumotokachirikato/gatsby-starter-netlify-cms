@@ -18,7 +18,6 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
   image = image || {}
-
   return (
     <div className="content">
       <div
@@ -71,7 +70,8 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-
+  console.log("post... : ", post)
+  console.log("frontmatter.... : ", post.frontmatter)
   return (
     <Layout>
       <BlogPostTemplate
