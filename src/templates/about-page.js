@@ -26,13 +26,12 @@ export const AboutPageTemplate = ({
         <h2
           className="has-text-weight-bold is-size-1 title-h2"
           style={{
-            boxShadow:
-              'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            // boxShadow:
+              // 'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+            backgroundColor: 'rgba(0, 73, 131, 0.70)',
             backgroundPosition: `20% center`,
             backgroundAttachment: `fixed`,
             padding: '0.50em',
-            // borderRadius: '0.2rem',
             color: 'white',
             padding: '1rem',
           }}
