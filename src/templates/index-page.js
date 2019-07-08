@@ -38,12 +38,13 @@ export const IndexPageTemplate = ({
           boxShadow:
             'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
           backgroundColor: 'rgba(0, 73, 131, 0.90)',
+          // borderRadius: '0.2rem',
           padding: '0.50em',
           textShadow: '0.1rem 0px 0px black',
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen"
           style={{
             // boxShadow:
             //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
@@ -56,7 +57,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             // boxShadow:
             //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',

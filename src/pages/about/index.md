@@ -1,19 +1,29 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About PVP
+image: /img/PVP_assets/YCT-8388-XL.jpg
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Who we are
+Platte Valley Players is a registered 501(c)3 non-profit organization governed by a Board of Directors. This board
+works together with our volunteers to facilitate all aspects of our live productions and events.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+create shows, community, and to preserve the tradition of excellent live
+theatre in Brighton, CO.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### What we do
+As a non-profit, we work tireless to provide incredible local theatre and quality productions with an
+incredible staff including the Board of Directors and volunteers. Without the support of our amazing
+team of volunteers these events would not be possible!
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Why we do it
+Valuing the Arts and supporting live theatre in the Brighton, Colorado community is what we are focused on doing.
+We do many community-focused events as well and we strive to bring people closer together in a family-friendly environment.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Supporting us
+If you love what we do and want to help support the future of Platte Valley Players and the amazing team
+of volunteers - Please contact us in the form here (coming soon)
+
+### Joining as a sponsor
+Are you a business and want to be one of our featured sponsors? Fill out the form here and we will reach out
+with more information on how your brand can reach our audiences and grow yours!

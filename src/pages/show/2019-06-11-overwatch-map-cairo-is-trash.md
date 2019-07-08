@@ -11,4 +11,5 @@ featuredimage: /img/overwatch-cairo-map.jpg
 tags:
   - trash
 ---
+![overwatch](/img/overwatch-cairo-map.jpg)
 Lets face it: Every Overwatch map released as an expansion has resulted in terrible competitive gameplay and outcomes. Nobody enjoys playing most of the new maps yet there is no voting system to avoid maps everyone would care to skip. The solution is simple: Uninstall Overwatch and start playing something else. Anything. It doesn't matter what it is tbh you just need to move on from a 3 year old bad game.
