@@ -85,6 +85,13 @@ export const pageQuery = graphql`
         date1(formatString: "MMMM DD, YYYY")
         date2(formatString: "MMMM DD, YYYY")
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
       }
     }
