@@ -9,7 +9,6 @@ export const ShowPostTemplate = ({
   content,
   contentComponent,
   description,
-  // tags,
   title,
   helmet,
 }) => {
@@ -63,7 +62,6 @@ const ShowPost = ({ data }) => {
             />
           </Helmet>
         }
-        // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -88,7 +86,6 @@ export const pageQuery = graphql`
         date2(formatString: "MMMM DD, YYYY")
         title
         description
-        tags
       }
     }
   }
