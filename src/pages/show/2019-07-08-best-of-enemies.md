@@ -7,9 +7,9 @@ description: >-
   Can a Durham KKK member and a black activist find common ground in the Civil
   Rights era?
 featuredpost: false
-featuredimage: /img/PVP-Disaster-poster-1218-FINAL.jpg
+featuredimage: /img/pvp-best-of-enemies-poster-1218-final.jpg
 ---
-![enemies](/img/pvp-best-of-enemies-poster-1218-FINAL.jpg)
+![enemies](/img/pvp-best-of-enemies-poster-1218-final.jpg)
 This play, by Mark St. Germain, is based on the bestselling book by Osha Gray Davidson, BEST OF ENEMIES.  It is a true story about the relationship between C.P. Ellis, a Grand Cyclops of the KKK, and Ann Atwater, an African-American civil rights activist, during the desegregation of the Durham, North Carolina, schools in 1971. BEST OF ENEMIES exposes the poison of prejudice in the hearts of Atwater and Ellis who, by facing each other, are forced to face the worst, and best, in themselves.
 
 
