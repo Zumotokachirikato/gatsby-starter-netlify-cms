@@ -8,8 +8,10 @@ export const AboutPageTemplate = ({
   title,
   image,
   content,
-  contentComponent
+  contentComponent,
 }) => {
+  image = image || {}
+  console.log("CONTENT: ", content)
   console.log("IMAGE: ", image)
   console.log("TITLE: ", title)
   const PageContent = contentComponent || Content
@@ -73,10 +75,10 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        image={data.image}
+        image={post.frontmatter.image}
         contentComponent={HTMLContent}
-        title={data.title}
-        content={data.markdownRemark.html}
+        title={post.frontmatter.title}
+        content={post.html}
       />
     </Layout>
   )
@@ -84,9 +86,16 @@ const AboutPage = ({ data }) => {
 
 AboutPage.propTypes = {
   // image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  data: PropTypes.string.isRequired,
+  // data: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  content: PropTypes.func,
+  contentComponent: PropTypes.object,
   // data: PropTypes.shape({
-  //   markdownRemark: PropTypes.object,
+  //   content: PropTypes.
+  //   markdownRemark: PropTypes.shape({
+  //     frontmatter: PropTypes.object,
+  //   }),
   // }),
 }
 
