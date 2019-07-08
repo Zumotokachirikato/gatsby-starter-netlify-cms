@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Platte Valley Players',
     description:
-      'This',
+      'The official home of local theatre for Colorado',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
