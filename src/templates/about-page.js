@@ -81,7 +81,7 @@ const AboutPage = ({ data }) => {
 }
 
 AboutPage.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.func,
   contentComponent: PropTypes.object,
