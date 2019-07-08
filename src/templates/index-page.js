@@ -44,7 +44,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-4-touch is-size-3-tablet is-size-2-widescreen"
+          className="has-text-weight-bold is-size-3-touch is-size-3-tablet is-size-2-widescreen"
           style={{
             // boxShadow:
             //   'rgba(0, 73, 131, 0.80) 0.5rem 0px 0px, rgba(0, 73, 131, 0.80) -0.5rem 0px 0px',
@@ -57,7 +57,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-touch is-size-4-tablet is-size-4-widescreen"
+          className="is-size-5-touch is-size-4-tablet is-size-4-widescreen has-text-weight-normal"
           style={{
             // boxShadow:
             //   'rgba(0, 73, 131, 0.80) 0.5rem 0px 0px, rgba(0, 73, 131, 0.80) -0.5rem 0px 0px',

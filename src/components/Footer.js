@@ -35,14 +35,9 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
+                      <Link className="navbar-item" to="/about">
+                        About
+                      </Link>
                     </li>
                   </ul>
                 </section>
@@ -50,11 +45,6 @@ const Footer = class extends React.Component {
               <div className="column is-3">
                 <section>
                   <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
                         Support Us
@@ -65,9 +55,19 @@ const Footer = class extends React.Component {
                         Contact
                       </Link>
                     </li>
-                    <li>
-                      <a className="navbar-item" id="tickets-navlink" href="https://app.arts-people.com/index.php?ticketing=pvp">
+                    <li className="navbar-item">
+                      <a id="tickets-navlink-footer" href="https://app.arts-people.com/index.php?ticketing=pvp">
                         Tickets
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
                       </a>
                     </li>
                   </ul>

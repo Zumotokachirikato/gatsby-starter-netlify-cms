@@ -165,9 +165,15 @@ footer, .footer
 #tickets-navlink
   color: $pvp-gold !important
   font-weight: bold
+  padding: 8px 12px;
 
 #tickets-navlink:hover
   text-shadow: 2px 2px 10px yellow !important;
+
+#tickets-navlink-footer
+  color: $pvp-gold !important
+  font-weight: bold
+  padding: 0;
 
 .tickets-btn
   margin-left: 12px
@@ -252,13 +258,17 @@ $menu-label-color: $white-ter
     overflow-y: scroll !important;
     text-rendering: optimizeLegibility !important;
 
+  .content ul
+    margin-left: 0;
+
   .navbar-burger.burger,
   .navbar-burger.burger.is-active
     color: $pvp-gray;
 
   .navbar-item
     margin-top: 0.4%;
-    margin-left: 20px;
+    // margin-left: 20px;
+    text-align: center;
 
   .navbar-menu.is-active
     background-color: $pvp-blue !important
@@ -266,6 +276,12 @@ $menu-label-color: $white-ter
   div.navbar-burger
     margin-top: 12px;
     margin-right: 20px;
+
+  .menu-list
+    text-align: center;
+
+  #tickets-navlink
+    // padding: 0 !important;
 
   .section
     padding: 3rem 0.5rem;
