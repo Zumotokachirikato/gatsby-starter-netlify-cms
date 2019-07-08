@@ -32,9 +32,9 @@ export const BackstagePageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow:
-            'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-          backgroundColor: 'rgba(0, 73, 131, 0.90)',
+          // boxShadow:
+          //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
+          backgroundColor: 'rgba(0, 73, 131, 0.70)',
           backgroundPosition: `20% center`,
           backgroundAttachment: `fixed`,
           color: 'white',

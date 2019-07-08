@@ -31,24 +31,24 @@ export const IndexPageTemplate = ({
         style={{
           display: 'flex',
           height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
+          lineHeight: '1.5',
+          justifyContent: 'space-evenly',
           alignItems: 'left',
           flexDirection: 'column',
-          boxShadow:
-            'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-          backgroundColor: 'rgba(0, 73, 131, 0.90)',
+          // boxShadow:
+          //   'black 0.5rem -2px -2px',
+          backgroundColor: 'rgba(0, 73, 131, 0.70)',
           // borderRadius: '0.2rem',
           padding: '0.50em',
           textShadow: '0.1rem 0px 0px black',
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen"
+          className="has-text-weight-bold is-size-4-touch is-size-3-tablet is-size-2-widescreen"
           style={{
             // boxShadow:
-            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            //   'rgba(0, 73, 131, 0.80) 0.5rem 0px 0px, rgba(0, 73, 131, 0.80) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.80)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -57,11 +57,11 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold is-size-5-touch is-size-4-tablet is-size-4-widescreen"
           style={{
             // boxShadow:
-            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            //   'rgba(0, 73, 131, 0.80) 0.5rem 0px 0px, rgba(0, 73, 131, 0.80) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.80)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -75,8 +75,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             // boxShadow:
-            //   'rgba(0, 73, 131, 0.90) 0.5rem 0px 0px, rgba(0, 73, 131, 0.90) -0.5rem 0px 0px',
-            // backgroundColor: 'rgba(0, 73, 131, 0.90)',
+            //   'rgba(0, 73, 131, 0.80) 0.5rem 0px 0px, rgba(0, 73, 131, 0.80) -0.5rem 0px 0px',
+            // backgroundColor: 'rgba(0, 73, 131, 0.80)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',

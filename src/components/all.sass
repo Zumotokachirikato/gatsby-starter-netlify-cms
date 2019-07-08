@@ -12,9 +12,14 @@
 
 // VARS //
 $pvp-blue: rgb(0, 73, 131)
-$pvp-gold: gold
+$pvp-lightblue: #9DB4C0
+// $pvp-gold: gold
+$pvp-gold: #ffd166
 $pvp-green: #92CF51
 $pvp-gray: #cfcfcf
+$pvp-gray2: #c3baba
+$pvp-spanishgray: #9A8F97
+$pvp-platinum: #e9e3e6
 $pvp-blue-invert: #fff
 
 $background-color: black
@@ -26,8 +31,12 @@ $black: #2b2523
 
 // $body-family: 'Nunito', sans-serif
 
+.blog-list-item
+  background-color: $pvp-platinum !important
+  color: $black !important
+
 h1
-  font-size: 3rem
+  // font-size: 3rem
 
 
 body
@@ -162,7 +171,7 @@ footer, .footer
 
 .tickets-btn
   margin-left: 12px
-  background-color: gold !important
+  background-color: $pvp-gold !important
   border-color: $pvp-gray !important
 
 .is-featured
@@ -233,7 +242,7 @@ $menu-label-color: $white-ter
 ////////// responsiveness //////////
 
 // TABLET QUERY
-+tablet-only
++touch
 
   html
     -moz-osx-font-smoothing: grayscale !important;
@@ -248,13 +257,15 @@ $menu-label-color: $white-ter
     color: $pvp-gray;
 
   .navbar-item
-    // margin-top: 10px;
+    margin-top: 0.4%;
+    margin-left: 20px;
 
   .navbar-menu.is-active
     background-color: $pvp-blue !important
 
   div.navbar-burger
     margin-top: 12px;
+    margin-right: 20px;
 
   .section
     padding: 3rem 0.5rem;
@@ -265,6 +276,14 @@ $menu-label-color: $white-ter
 // MOBILE QUERY
 +mobile
 
+  html
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    min-width: 300px !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    text-rendering: optimizeLegibility !important;
+
   .navbar-burger.burger,
   .navbar-burger.burger.is-active
     color: $pvp-gray;
@@ -273,7 +292,7 @@ $menu-label-color: $white-ter
     background-color: $pvp-blue !important;
 
   .navbar-item
-    // margin-top: 10px;
+    margin-top: 0.4%;
 
   div.navbar-burger
     margin-top: 12px;
