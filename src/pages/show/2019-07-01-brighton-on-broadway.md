@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: show-post
 title: Brighton On Broadway
 date1: 2019-08-17T00:45:00.000Z
 date2: 2019-08-17T04:00:00.000Z
