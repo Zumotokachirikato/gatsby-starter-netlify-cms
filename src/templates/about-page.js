@@ -75,7 +75,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        image={post.frontmatter.image}
+        image={post.frontmatter.image || {}}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
