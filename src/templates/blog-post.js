@@ -17,6 +17,7 @@ export const BlogPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+  image = image || {}
 
   return (
     <div className="content">
