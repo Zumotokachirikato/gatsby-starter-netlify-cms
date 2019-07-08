@@ -11,9 +11,6 @@ export const AboutPageTemplate = ({
   contentComponent,
 }) => {
   image = image || {}
-  console.log("CONTENT: ", content)
-  console.log("IMAGE: ", image)
-  console.log("TITLE: ", title)
   const PageContent = contentComponent || Content
 
   return (
@@ -70,7 +67,6 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-  // const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
@@ -85,18 +81,10 @@ const AboutPage = ({ data }) => {
 }
 
 AboutPage.propTypes = {
-  // image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  // data: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.func,
   contentComponent: PropTypes.object,
-  // data: PropTypes.shape({
-  //   content: PropTypes.
-  //   markdownRemark: PropTypes.shape({
-  //     frontmatter: PropTypes.object,
-  //   }),
-  // }),
 }
 
 export default AboutPage
