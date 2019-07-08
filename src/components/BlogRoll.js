@@ -7,11 +7,17 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    // let datey = post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(","))
 
     return (
       <div className="columns is-multiline">
         {posts &&
           posts
+          .sort((a, b) => {
+            b.post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(","))
+             -
+            a.post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(","))
+          })
           .map(({ node: post }) => (
             post.frontmatter.featuredpost ?
               (<div className="is-parent column is-12" key={post.id}>
