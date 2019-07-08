@@ -8,9 +8,6 @@ image: /img/PVP_assets/YCT-8388-XL.jpg
 Platte Valley Players is a registered 501(c)3 non-profit organization governed by a Board of Directors. This board
 works together with our volunteers to facilitate all aspects of our live productions and events.
 
-create shows, community, and to preserve the tradition of excellent live
-theatre in Brighton, CO.
-
 ### What we do
 As a non-profit, we work tireless to provide incredible local theatre and quality productions with an
 incredible staff including the Board of Directors and volunteers. Without the support of our amazing
