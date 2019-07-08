@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
@@ -10,7 +9,7 @@ export const ShowPostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
+  // tags,
   title,
   helmet,
 }) => {
@@ -27,18 +26,10 @@ export const ShowPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
-            {/*{tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}*/}
+            <br />
+            <a className="button tickets-btn" href="https://app.arts-people.com/index.php?ticketing=pvp" style={{marginLeft: 10 + 'px'}}>
+            Buy Tickets
+            </a>
           </div>
         </div>
       </div>
@@ -72,7 +63,7 @@ const ShowPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+        // tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
     </Layout>
