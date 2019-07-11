@@ -13,8 +13,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         heading={data.heading}
         subheading={data.subheading}
         address={data.address}
-        description={data.description}
-        intro={data.intro || { blurbs: [] }}
+        // intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch || {}}
       />
     )

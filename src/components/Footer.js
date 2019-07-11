@@ -11,8 +11,6 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-text-white-ter">
-        {/*<div className="content has-text-centered">
-        </div>*/}
         <div className="content has-text-centered has-text-white-ter">
           <div className="container has-text-white-ter">
             <div className="columns">
@@ -56,7 +54,10 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li className="navbar-item">
-                      <a id="tickets-navlink-footer" href="https://app.arts-people.com/index.php?ticketing=pvp">
+                      <a
+                        id="tickets-navlink-footer"
+                        href="https://app.arts-people.com/index.php?ticketing=pvp"
+                      >
                         Tickets
                       </a>
                     </li>
@@ -93,14 +94,24 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-3 social">
                 <br />
-                <a title="facebook" target="_blank" href="https://facebook.com">
+                <a
+                  title="facebook"
+                  target="_blank"
+                  href="https://facebook.com"
+                  rel="noopener noreferrer"
+                  >
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" target="_blank" href="https://twitter.com">
+                <a
+                  title="twitter"
+                  target="_blank"
+                  href="https://twitter.com"
+                  rel="noopener noreferrer"
+                  >
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -108,7 +119,12 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" target="_blank" href="https://instagram.com">
+                <a
+                  title="instagram"
+                  target="_blank"
+                  href="https://instagram.com"
+                  rel="noopener noreferrer"
+                  >
                   <img
                     src={instagram}
                     alt="Instagram"
