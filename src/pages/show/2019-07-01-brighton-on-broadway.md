@@ -11,9 +11,9 @@ featuredimage: /img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg
 ---
 ![brightonbroadway](/img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg)
 
-Brighton on Broadway - Friday, August 16th -  sponsored by The heART of Brighton and presented by Platte Valley Players
+Brighton on Broadway - Friday, August 16th -  sponsored by The Armory Performing Arts Center and The heART of Brighton - presented by Platte Valley Players.  
 
-For one special night only - PVP's Annual Fundraiser is back! Enjoy fabulous musical entertainment, delicious BBQ (catered by Famous Dave's BBQ), awesome silent auction items and a cash bar!   Come out and support the performing arts in Brighton!
+For one special night only(Friday, August 16th) - PVP's Annual Fundraiser is back! Enjoy fabulous musical entertainment, delicious BBQ (catered by Famous Dave's BBQ), awesome silent auction items and a cash bar!   Come out and support the performing arts in Brighton!
 
 * Tickets:  (seating is General Admission)
   Dinner & Show $35
