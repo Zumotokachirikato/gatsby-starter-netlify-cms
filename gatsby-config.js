@@ -62,6 +62,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-buildtime-timezone',
+      options: {
+        tz: 'America/Denver',
+        format: 'ddd, DD MMM YYYY hh:mm A',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
