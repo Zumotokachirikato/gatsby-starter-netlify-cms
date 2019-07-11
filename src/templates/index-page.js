@@ -174,7 +174,6 @@ const IndexPage = ({ data }) => {
         address={frontmatter.address}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
@@ -207,21 +206,6 @@ export const pageQuery = graphql`
         address
         mainpitch {
           title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
           description
         }
       }
