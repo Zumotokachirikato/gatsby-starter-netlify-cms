@@ -65,7 +65,7 @@ module.exports = {
       resolve: 'gatsby-plugin-buildtime-timezone',
       options: {
         tz: 'America/Denver',
-        format: 'ddd, DD MMM YYYY hh:mm A',
+        format: 'MMMM DD, YYYY hh:mmA',
       },
     },
     {
