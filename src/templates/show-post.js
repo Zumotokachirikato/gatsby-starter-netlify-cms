@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 export const ShowPostTemplate = ({
-  image
+  image,
   content,
   contentComponent,
   description,
@@ -28,7 +28,10 @@ export const ShowPostTemplate = ({
             <p>{description}</p>
             <PostContent content={content} />
             <br />
-            <a className="button tickets-btn" href="https://app.arts-people.com/index.php?ticketing=pvp" style={{marginLeft: 10 + 'px'}}>
+            <a
+              className="button tickets-btn" href="https://app.arts-people.com/index.php?ticketing=pvp"
+              style={{marginLeft: 10 + 'px'}}
+            >
             Buy Tickets
             </a>
           </div>
