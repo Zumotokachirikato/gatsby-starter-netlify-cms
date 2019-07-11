@@ -15,7 +15,6 @@ export const ShowPostTemplate = ({
 }) => {
   image = image || {};
   const PostContent = contentComponent || Content
-
   return (
     <section className="section">
       {helmet || ''}
@@ -69,6 +68,7 @@ const ShowPost = ({ data }) => {
         }
         title={post.frontmatter.title}
       />
+      {console.log("T I M E S T R I N G = = =  ", post.frontmatter.date1)}
     </Layout>
   )
 }
@@ -87,8 +87,8 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date1(formatString: "MMMM DD, YYYY")
-        date2(formatString: "MMMM DD, YYYY")
+        date1
+        date2
         title
         image {
           childImageSharp {

@@ -41,10 +41,12 @@ class ShowRoll extends React.Component {
                       </Link>
                       <br />
                       <span className="subtitle is-size-5 is-block">
+                          {console.log("date1      : ", post.frontmatter.date1)}
                           {(post.frontmatter.date1 && post.frontmatter.date2) &&
                             (post.frontmatter.date2.slice(0, post.frontmatter.date2.indexOf(","))
                               !== post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(",")))
-                            ? `${post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 15)} - ${post.frontmatter.date2.slice(0, post.frontmatter.date2.length - 9)}`
+                            ? `${post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 14)} - ${post.frontmatter.date2.slice(0, post.frontmatter.date2.length)}`
+                            // ? `${post.frontmatter.date1} - ${post.frontmatter.date2}`
                             : `${post.frontmatter.date1} - ${post.frontmatter.date2.slice(17, post.frontmatter.date2.length)}`
                           }
                       </span>
@@ -96,8 +98,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date1(formatString: "MMMM DD, YYYY, h:mm A")
-                date2(formatString: "MMMM DD, YYYY, h:mm A")
+                date1(formatString: "MMMM DD, YYYY hh:mmA")
+                date2(formatString: "MMMM DD, YYYY hh:mmA")
                 featuredpost
                 featuredimage {
                   childImageSharp {
