@@ -41,7 +41,10 @@ class ShowRoll extends React.Component {
                       </Link>
                       <br />
                       <span className="subtitle is-size-5 is-block">
-                          {console.log("date1      : ", post.frontmatter.date1)}
+                          {console.log("date1        : ", post.frontmatter.date1)}
+                          {console.log("date1 format : ", new Date(post.frontmatter.date1))}
+                          {console.log("date2        : ", post.frontmatter.date2)}
+                          {console.log("date2 format : ", new Date(post.frontmatter.date2))}
                           {(post.frontmatter.date1 && post.frontmatter.date2) &&
                             (post.frontmatter.date2.slice(0, post.frontmatter.date2.indexOf(","))
                               !== post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(",")))
