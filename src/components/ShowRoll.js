@@ -4,9 +4,60 @@ import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class ShowRoll extends React.Component {
+  constructor() {
+    super();
+
+    this.formatDates = this.formatDates.bind(this);
+  }
+
+
+  // formatDates = date => {
+  //   console.log("formatDate input value : ", date);
+  //   let noZ = date.substring(0, date.length -1);
+  //   console.log("Z removed : ", noZ);
+  //   noZ.replace('-','/');
+  //   console.log("- to / : ", noZ.replace('-','/'));
+  //   let formatted = new Date(noZ);
+  //   console.log("formatted : ", formatted);
+  //   console.log("Parsed?? : ", Date.parse(formatted));
+  //   return formatted;
+  // }
+
+  // formatDates = date => {
+  //   let epoch = new Date(date)
+  //
+  //   let za = new Date(epoch),
+  //       zaR = za.getUTCFullYear(),
+  //       zaMth = za.getUTCMonth(),
+  //       zaDs = za.getUTCDate(),
+  //       zaTm = za.toTimeString().substr(0,5);
+  //
+  //   console.log(zaR +"-" + zaMth + "-" + zaDs, zaTm)
+  // }
+
+  formatDates = date => {
+    // var date = '2014-01-02T00:00:00.000Z'
+    let dateCpy = date;
+    dateCpy = dateCpy.substring(0,10).split('-')
+    dateCpy = dateCpy[1] + '-' + dateCpy[2] + '-' + dateCpy[0];
+    let dateAdjust = new Date(date),
+    dateAdjustR = dateAdjust.getUTCFullYear(),
+    dateAdjustMth = dateAdjust.getUTCMonth(),
+    dateAdjustDs = dateAdjust.getUTCDate(),
+    dateAdjustHr = 24 - dateAdjust.toTimeString().substr(0,2),
+    dateAdjustMn = dateAdjust.toTimeString().substr(2, 3);
+
+    console.log("-----------------");
+    console.log("HOUR: ", dateAdjustHr);
+    console.log("stringggg   : ", dateAdjustR +"-" + dateAdjustMth + "-" + dateAdjustDs, dateAdjustHr + dateAdjustMn)
+    console.log("FORMATTED DATE FN : ", dateCpy);
+    console.log("-----------------");
+  }
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+
 
     return (
       <div className="columns is-multiline">
@@ -41,17 +92,19 @@ class ShowRoll extends React.Component {
                       </Link>
                       <br />
                       <span className="subtitle is-size-5 is-block">
-                          {console.log("date1        : ", post.frontmatter.date1)}
-                          {console.log("date1 format : ", new Date(post.frontmatter.date1))}
-                          {console.log("date2        : ", post.frontmatter.date2)}
-                          {console.log("date2 format : ", new Date(post.frontmatter.date2))}
+                          {/*{console.log("date         : ", post.frontmatter.date1.substring(0, post.frontmatter.date1.length -1))}
+                          {console.log("date format  : ", this.formatDates(post.frontmatter.date1))}*/}
                           {(post.frontmatter.date1 && post.frontmatter.date2) &&
                             (post.frontmatter.date2.slice(0, post.frontmatter.date2.indexOf(","))
                               !== post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(",")))
-                            ? `${post.frontmatter.date1.slice(0, post.frontmatter.date1.length - 14)} - ${post.frontmatter.date2.slice(0, post.frontmatter.date2.length)}`
+                            ? `${post.frontmatter.date1.slice(0, post.frontmatter.date1.indexOf(","))} - ${post.frontmatter.date2}`
                             // ? `${post.frontmatter.date1} - ${post.frontmatter.date2}`
-                            : `${post.frontmatter.date1} - ${post.frontmatter.date2.slice(17, post.frontmatter.date2.length)}`
+                            : `${post.frontmatter.date1}`
                           }
+                          <br />
+                          <small>{post.frontmatter.starttime}</small>
+                          <br />
+                          <small>{post.frontmatter.endtime}</small>
                       </span>
                     </p>
                   </header>
@@ -101,8 +154,10 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date1(formatString: "MMMM DD, YYYY hh:mmA")
-                date2(formatString: "MMMM DD, YYYY hh:mmA")
+                date1(formatString: "MMMM D, YYYY")
+                date2(formatString: "MMMM D, YYYY")
+                starttime
+                endtime
                 featuredpost
                 featuredimage {
                   childImageSharp {

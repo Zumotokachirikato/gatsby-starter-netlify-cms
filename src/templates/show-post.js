@@ -11,6 +11,8 @@ export const ShowPostTemplate = ({
   contentComponent,
   description,
   title,
+  date1,
+  date2,
   helmet,
 }) => {
   image = image || {};
@@ -24,6 +26,12 @@ export const ShowPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <h2 className="has-text-weight-bold is-bold-light">
+            {
+              date1 && date2 && date1 !== date2 ? [date1, " - ", date2] : date1
+            }
+
+            </h2>
             <p>{description}</p>
             <PostContent content={content} />
             <br />
@@ -45,6 +53,8 @@ ShowPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  date1: PropTypes.string,
+  date2: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -67,8 +77,9 @@ const ShowPost = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        date1={post.frontmatter.date1}
+        date2={post.frontmatter.date2}
       />
-      {console.log("T I M E S T R I N G = = =  ", post.frontmatter.date1)}
     </Layout>
   )
 }
@@ -87,8 +98,10 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date1
-        date2
+        date1(formatString: "MMMM D")
+        date2(formatString: "MMMM D")
+        starttime
+        endtime
         title
         image {
           childImageSharp {
