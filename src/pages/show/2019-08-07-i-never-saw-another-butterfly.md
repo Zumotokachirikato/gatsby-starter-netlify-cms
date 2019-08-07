@@ -1,8 +1,8 @@
 ---
 templateKey: show-post
 title: I Never Saw Another Butterfly
-date1: 2019-07-24T23:06:06.761Z
-date2: 2019-08-07T17:00:05.347Z
+date1: 2019-10-12T01:00:00.000Z
+date2: 2019-10-13T01:00:00.000Z
 description: >-
   There were no butterflies at Terezin, but for the children who lived there,
   butterflies became a symbol of defiance, making it possible for them to live
