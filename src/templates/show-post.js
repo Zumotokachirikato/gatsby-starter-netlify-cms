@@ -28,7 +28,7 @@ export const ShowPostTemplate = ({
             </h1>
             <h2 className="has-text-weight-bold is-bold-light">
             {
-              date1 && date2 && date1 !== date2 ? [date1, " - ", date2] : date1
+              date1 && date2 !== '' && date1 !== date2 ? [date1, " - ", date2] : date1
             }
 
             </h2>
