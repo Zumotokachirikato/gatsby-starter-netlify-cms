@@ -25,4 +25,8 @@ main:
   image3:
     alt: Full band jam session on stage
     image: /img/PVP_assets/ROF-2086.jpg
----
+full_image: /img/android-chrome-256x256.png
+pricing:
+  heading: See you at the theatre!
+  description: 'Come play with us!'
+
