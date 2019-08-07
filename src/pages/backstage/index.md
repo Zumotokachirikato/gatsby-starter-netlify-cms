@@ -2,21 +2,28 @@
 templateKey: backstage-page
 title: Backstage
 image: /img/static/img/PVP_assets/ROF-2211.jpg
-heading: Backstage at Platte Valley Players
-description: >-
-  This is where you will find an archive of all our previous productions we have
-  held as well as casting calls for future events! Come back to see more as we
-  add high quality photos and playbills to the archive.
+heading: 'Audition for PVP! '
+description: 'Audition information found below.  '
 intro:
   blurbs: []
   heading: What we offer
   description: |
     ...
 main:
-  heading: Casting Calls
-  description: >
-    Want to get involved? Check back here for our open casting calls or feel
-    free to contact us if you would like to consider volunteering.
+  heading: 'Disaster! The Musical Auditions Announced '
+  description: >-
+    Platte Valley Players is seeking at least  10 male/10 female and 1 child
+    musical theatre performers for the  musical comedy DISASTER! By Seth
+    Rudetsky and Jack Plotnick.  
+
+
+
+
+
+    Visit this link to find all audition, rehearsal and performance
+    information         
+    https://www.signupgenius.com/go/10C0E49A4A922A2F49-disaster
+      
   image1:
     alt: A very dramatic scene with an older man in a suit
     image: /img/PVP_assets/YCT-8345-XL.jpg
@@ -26,4 +33,9 @@ main:
   image3:
     alt: Full band jam session on stage
     image: /img/PVP_assets/ROF-2086.jpg
+full_image: /img/android-chrome-256x256.png
+pricing:
+  heading: See you at the theatre!
+  description: 'Come play with us! '
 ---
+
