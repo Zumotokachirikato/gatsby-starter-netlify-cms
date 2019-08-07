@@ -17,9 +17,9 @@ collections:
       - {label: "Start Date", name: "date1", widget: "date", dateFormat: "MMMM DD, YYYY"}
       - {label: "End Date", name: "date2", widget: "date", dateFormat: "MMMM DD, YYYY"}
       - {label: "Start Time", name: "starttime", widget: "text"}
-      - {label: "End Time", name: "endtime", widget: "text"}
+      - {label: "End Time", name: "endtime", widget: "text", required: "false"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: "false"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
