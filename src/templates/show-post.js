@@ -12,6 +12,7 @@ export const ShowPostTemplate = ({
   description,
   title,
   date1,
+  date2
   helmet,
 }) => {
   date2 = date2 || '';
