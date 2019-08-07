@@ -12,9 +12,9 @@ export const ShowPostTemplate = ({
   description,
   title,
   date1,
-  date2,
   helmet,
 }) => {
+  date2 = date2 || '';
   image = image || {};
   const PostContent = contentComponent || Content
   return (
@@ -78,7 +78,7 @@ const ShowPost = ({ data }) => {
         }
         title={post.frontmatter.title}
         date1={post.frontmatter.date1}
-        date2={post.frontmatter.date2}
+        date2={post.frontmatter.date2 || ''}
       />
     </Layout>
   )
