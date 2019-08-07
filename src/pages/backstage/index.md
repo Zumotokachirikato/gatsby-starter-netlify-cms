@@ -4,8 +4,7 @@ title: Backstage
 image: /img/static/img/PVP_assets/ROF-2211.jpg
 heading: Backstage at Platte Valley Players
 description: >-
-  This is where you will find an archive of all our previous productions we have
-  held as well as casting calls for future events! Come back to see more as we
+  This is where the archive of all our previous productions will live. Come back to see more as we
   add high quality photos and playbills to the archive.
 intro:
   blurbs: []
@@ -13,10 +12,10 @@ intro:
   description: |
     ...
 main:
-  heading: Casting Calls
+  heading: Past Productions
   description: >
-    Want to get involved? Check back here for our open casting calls or feel
-    free to contact us if you would like to consider volunteering.
+    Coming soon...
+    Enjoy these incredible photos from a few of our productions in the mean time.
   image1:
     alt: A very dramatic scene with an older man in a suit
     image: /img/PVP_assets/YCT-8345-XL.jpg
