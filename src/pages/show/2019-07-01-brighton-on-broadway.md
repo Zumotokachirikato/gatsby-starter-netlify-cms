@@ -3,8 +3,8 @@ templateKey: show-post
 title: Brighton On Broadway
 date1: 2019-08-16T18:15:00.000Z
 date2: 2019-08-16T21:00:00.000Z
-starttime: 6:15 PM
-endtime: 9:00 PM
+starttime: '6:15 - 9:00 PM'
+endtime: ''
 description: >-
   Friday, August 16th - for one night only - Platte Valley Player's cabaret
   fundraiser is back!
