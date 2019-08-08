@@ -3,8 +3,8 @@ templateKey: show-post
 title: Best of Enemies
 date1: 2019-09-21T01:30:00.000Z
 date2: 2019-09-29T01:30:00.000Z
-starttime: '2:00 PM & 7:30 PM'
-endtime: ''
+starttime: 'Fri - 7:30 PM'
+endtime: 'Sat - 2:00 PM & 7:30 PM'
 description: >-
   Can a Durham KKK member and a black activist find common ground in the Civil
   Rights era?
