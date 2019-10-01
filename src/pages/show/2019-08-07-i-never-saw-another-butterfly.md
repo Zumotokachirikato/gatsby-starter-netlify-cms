@@ -15,10 +15,6 @@ featuredimage: /img/butterfly.jpg
 ---
 ![](/img/butterfly.jpg)
 
-Over 15,000 Jewish children passed through Terezin, and only about a hundred were still alive when Terezin was liberated at the end of the war. One of the survivors, Raja, having lived through it all, teaching the children when there was nothing to teach with, helping to give them hope when there was little enough reason for hope, creating a little world of laughter, of flowers and butterflies behind the barbed wire, tells the true story of the children of Terezin. 
-
-All performances will be held a the Armory Performing Arts Center.
-
 Performance Dates/Times:
 
 Thursday, October 10 @ 10 AM (school performance) 
@@ -28,3 +24,7 @@ Friday, October 11 @ 10 AM (school performance)
 Friday October 11 @ 7 PM 
 
 Saturday October 12 @ 2 PM  & 7
+
+All performances will be held a the Armory Performing Arts Center.
+
+Over 15,000 Jewish children passed through Terezin, and only about a hundred were still alive when Terezin was liberated at the end of the war. One of the survivors, Raja, having lived through it all, teaching the children when there was nothing to teach with, helping to give them hope when there was little enough reason for hope, creating a little world of laughter, of flowers and butterflies behind the barbed wire, tells the true story of the children of Terezin.
