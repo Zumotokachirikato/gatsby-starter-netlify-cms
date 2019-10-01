@@ -2,7 +2,7 @@
 templateKey: show-post
 title: I Never Saw Another Butterfly
 date1: 2019-10-10T01:00:00.000Z
-date2: 2019-10-13T01:00:00.000Z
+date2: 2019-10-12T01:00:00.000Z
 starttime: '2:00 PM & 7:00 PM'
 description: >-
   There were no butterflies at Terezin, but for the children who lived there,
