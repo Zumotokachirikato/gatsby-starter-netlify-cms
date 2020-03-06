@@ -1,30 +1,29 @@
 ---
 templateKey: show-post
-title: I Never Saw Another Butterfly
-date1: 2019-10-10T01:00:00.000Z
-date2: 2019-10-12T01:00:00.000Z
-starttime: '2:00 PM & 7:00 PM'
+title: 'Urinetown - The Musical '
+date1: 2020-11-14T02:00:00.000Z
+date2: 2020-11-22T02:00:00.000Z
+starttime: '2:00 PM & 7:30 PM'
 description: >-
-  There were no butterflies at Terezin, but for the children who lived there,
-  butterflies became a symbol of defiance, making it possible for them to live
-  on and play happily while waiting to be transported.
+  A sidesplitting sendup of greed, love, revolution (and musicals!), in a time
+  when water is worth its weight in gold.
 
    
 featuredpost: false
-featuredimage: /img/butterfly.jpg
+featuredimage: /img/urinetown_logo.jpg
 ---
-![](/img/butterfly.jpg)
+![](/img/urinetown_logo.jpg)
+
+Winner of three Tony Awards, three Outer Critics Circle Awards, two Lucille Lortel Awards and two Obie Awards, Urinetown is an hilarious musical satire of the legal system, capitalism, social irresponsibility, populism, bureaucracy, corporate mismanagement, municipal politics and musical theatre itself! Hilariously funny and touchingly honest, Urinetown provides a fresh perspective on one of America's greatest art forms.
 
 Performance Dates/Times:
 
-Thursday, October 10 @ 10 AM (school performance) 
+Friday, November 13 @ 7:30 PM 
 
-Friday, October 11 @ 10 AM (school performance) 
+Saturday, November 14 @ 2 PM & 7:30 PM
 
-Friday October 11 @ 7 PM 
+Friday, November 20 @ 7:30 PM
 
-Saturday October 12 @ 2 PM  & 7
+Saturday, November 21 @ 2 PM  & 7:30 PM
 
 All performances will be held a the Armory Performing Arts Center.
-
-Over 15,000 Jewish children passed through Terezin, and only about a hundred were still alive when Terezin was liberated at the end of the war. One of the survivors, Raja, having lived through it all, teaching the children when there was nothing to teach with, helping to give them hope when there was little enough reason for hope, creating a little world of laughter, of flowers and butterflies behind the barbed wire, tells the true story of the children of Terezin.
