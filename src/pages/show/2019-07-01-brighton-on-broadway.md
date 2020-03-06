@@ -1,28 +1,32 @@
 ---
 templateKey: show-post
-title: Brighton On Broadway
-date1: 2019-08-16T18:15:00.000Z
-date2: 2019-08-16T21:00:00.000Z
-starttime: '6:15 - 9:00 PM'
+title: 'The Music Man Kids & Chitty Chitty Bang Bang, Jr.  '
+date1: 2020-04-03T18:15:00.000Z
+date2: 2020-04-11T21:00:00.000Z
+starttime: '7:00 PM - 9:00 PM'
 endtime: ''
 description: >-
-  Friday, August 16th - for one night only - Platte Valley Player's cabaret
-  fundraiser is back!
+  Opening Friday April 3rd, and with only 5 performances, come see two
+  incredible casts of young performers perform two classic musicals.  Bring the
+  whole family!  
 featuredpost: true
-featuredimage: /img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg
+featuredimage: /img/pvp-music-man-jr-poster-0220-final-1-.jpg
 ---
-![brightonbroadway](/img/PVP-Brighton-On-Broadway-small-poster-0619-791x1024.jpg)
+![musicman_chittychitty](/img/pvp-music-man-jr-poster-0220-final-1-.jpg "The Music Man Kids & Chitty Chitty Bang Bang, Jr. ")
 
-Brighton on Broadway - Friday, August 16th -  sponsored by The Armory Performing Arts Center and The heART of Brighton - presented by Platte Valley Players.  
+Platte Valley Players Children's Theatre presents The Music Man Kids and Chitty Chitty Bang Bang, Junior at the beautiful Armory for the Performing Arts Center in downtown Brighton, CO.  
 
-For one special night only(Friday, August 16th) - PVP's Annual Fundraiser is back! Enjoy fabulous musical entertainment, delicious BBQ (catered by Famous Dave's BBQ), awesome silent auction items and a cash bar!   Come out and support the performing arts in Brighton!
+Performance Dates:
 
-* Tickets:  (seating is General Admission)
-  Dinner & Show $35
-  Show Only $20
-* Doors open at 6:15
-  Dinner at 6:45
-  Show at 7:45
+Friday, April 3 @ 7PM 
 
-Tickets for Dinner & Show must be purchased online at www.plattevalleyplayers.org by August 13th.
-Show Only Tickets will be available online and at the door.
+Saturday, April 4 @ 2 PM
+
+Friday, April 10 @ 7 PM
+
+Saturday, April 11 @ 2 PM and 7 PM  
+
+Tickets
+
+*    Adults $12 online/$14 at door
+*    Child (Under 12) and Seniors (65+):  $10 online/ $12 at door
