@@ -84,6 +84,9 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" id="tickets-navlink" href="https://app.arts-people.com/index.php?ticketing=pvp">
                 Tickets
               </a>
+              <a className="navbar-item" id="tickets-navlink" href="https://app.arts-people.com/index.php?ticketing=pvp">
+                Donate
+              </a>
             </div>
             <div className="navbar-end has-text-centered">
               {/*<a
