@@ -66,6 +66,14 @@ const Footer = class extends React.Component {
                         Tickets
                       </a>
                     </li>
+                    <li className="navbar-item">
+                      <a
+                        id="tickets-navlink-footer"
+                        href="https://app.arts-people.com/index.php?ticketing=pvp"
+                      >
+                        Donate
+                      </a>
+                    </li>
                     <li>
                       <a
                         className="navbar-item"
